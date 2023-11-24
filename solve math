@@ -1,0 +1,26 @@
+using System;
+namespace SoloLearn
+{
+	class Program
+	{
+		static void Main(string[] args)
+		{
+Console.WriteLine("15+2*2");
+int ans1=Convert.ToInt32(Console.ReadLine());
+
+if (ans1==19){
+Console.WriteLine("Correct");
+}
+else{
+    Console.WriteLine("Incorrect");
+}
+Console.WriteLine("(4+3+2+1)/2");
+int ans2=Convert.ToInt32(Console.ReadLine());
+if (ans2==6){
+Console.WriteLine("Correct");
+}
+else{
+    Console.WriteLine("Incorrect");
+}
+
+}}}
